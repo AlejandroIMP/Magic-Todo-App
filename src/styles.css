@@ -12,7 +12,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 .todo--container{
-    background-color: var(--main-bg-color);
+    background-color: #E7F0DC;
     padding: 20px;
     border: 3px solid gray;
     border-radius: 30px;

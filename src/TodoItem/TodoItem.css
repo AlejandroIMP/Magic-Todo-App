@@ -6,21 +6,31 @@
     text-align: center;
     align-content: center;
     border-radius: 10px;
-    background-color: rgb(255, 246, 228);
+    background-color: #3c7a45;
+    color: white;
 }
 
 .item--text{
     font-size: 22px;
     font-weight: 800;
+    position: static;
 }
 
 .item--description{
     font-size: 16px;
     font-weight: 400;
-    color: var(--dark-brown);
+    position: static;
 }
 
 .item--date{
     font-size: 18px;
     font-weight: 500;
+    position: static;
 }
+
+.item--delete{
+    position: relative;
+    left: 190px;
+
+}
+
