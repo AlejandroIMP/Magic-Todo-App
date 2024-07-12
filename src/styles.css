@@ -1,0 +1,22 @@
+:root{
+    --main-bg-color: #F6E6CB;
+    --main-txt-color:#E7D4B5 ;
+    --button-color: #B6C7AA;
+    --dark-brown: #6b5731;
+}
+body{
+    background-color: rgb(255, 244, 229);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.todo--container{
+    background-color: var(--main-bg-color);
+    padding: 20px;
+    border: 3px solid gray;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px var(--dark-brown);
+    margin: 10px;
+    width: 960px;
+}

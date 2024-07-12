@@ -1,0 +1,7 @@
+
+.todo--title{
+    background-color: var(--bg-title-color);
+    color: var(--dark-brown);
+    font-size: 50px;
+    border-bottom: 2px solid black;
+}

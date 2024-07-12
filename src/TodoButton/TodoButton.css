@@ -1,0 +1,8 @@
+.todo--button{
+    color: white;
+    background-color: var(--button-color);
+    border: 1px solid white;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+}
