@@ -3,20 +3,19 @@
     --main-txt-color:#E7D4B5 ;
     --button-color: #B6C7AA;
     --dark-brown: #6b5731;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 body{
-    background-color: rgb(255, 244, 229);
+    background-color: rgb(240, 240, 240);
     display: flex;
     justify-content: center;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-}
-.todo--container{
-    background-color: #E7F0DC;
-    padding: 20px;
-    border: 3px solid gray;
-    border-radius: 30px;
-    box-shadow: 10px 10px 5px var(--dark-brown);
-    margin: 10px;
-    width: 960px;
+    position: relative;
 }

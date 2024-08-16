@@ -16,11 +16,9 @@ const defaultTodos = [
 
 function App() {
   return (
-    <div className='todo--container'>
-
+    <>
       <TodoTitle/>
       <TodoInputSearch/>
-
       <TodoList>
         {defaultTodos.map(todo => (
           <TodoItem 
@@ -30,13 +28,11 @@ function App() {
           date={todo.date}
           completed ={todo.completed}
           />
-        ))}
-        
+        ))} 
       </TodoList>
       <TodoCount  completed={16} total={40}/>
       <TodoButton/>
-
-    </div>
+    </>
   );
 }
 

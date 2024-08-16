@@ -1,8 +1,10 @@
 .input--search{
-    font-size: 35px;
+    width: 80vw;
+    font-size: 1.5rem;
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--dark-brown);
+    border-radius: 1.5rem;
     text-align: center;
-    padding: 5px;
-    border: 1px solid black;
-    border-radius: 8px;
-    background-color: rgb(249, 244, 237);
+    max-width: 500px;
 }

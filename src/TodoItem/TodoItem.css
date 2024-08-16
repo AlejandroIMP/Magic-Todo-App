@@ -1,36 +1,74 @@
 .list--item{
-    width: 300px;
-    height: 230px;
-    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: whitesmoke;
+    width: 70%;
+    min-width: 280px;
+    max-width: 400px;
+    height: auto;
     border: 1px solid black;
-    text-align: center;
-    align-content: center;
     border-radius: 10px;
-    background-color: #3c7a45;
-    color: white;
+    position: relative;
 }
 
-.item--text{
-    font-size: 22px;
-    font-weight: 800;
-    position: static;
+.list--item:hover{
+    background-color: rgb(180, 180, 180);
+    color: var(--light-brown);
+}
+
+.item--title{
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 0.5rem 0;
 }
 
 .item--description{
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
-    position: static;
+    margin: 0.5rem 0;
 }
 
 .item--date{
-    font-size: 18px;
-    font-weight: 500;
-    position: static;
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin: 0.5rem 0;
 }
 
 .item--delete{
-    position: relative;
-    left: 190px;
-
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 0.5rem;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    color: whitesmoke;
+    border: none;
+    border-radius: 100vw;
+    cursor: pointer;
 }
 
+.item--delete:hover{
+    background-color: darkred;
+}
+
+.item--done{
+    position: absolute;
+    bottom: -10px;
+    left: 10px;
+    padding: 0.5rem;
+    background-color: green;
+    width: 30px;
+    height: 30px;
+    color: whitesmoke;
+    border: none;
+    border-radius: 100vw;
+    cursor: pointer;
+}
+
+.item--done:hover{
+    background-color: darkgreen;
+}
