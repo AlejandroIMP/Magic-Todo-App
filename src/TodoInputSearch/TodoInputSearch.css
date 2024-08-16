@@ -2,9 +2,23 @@
     width: 80vw;
     font-size: 1.5rem;
     padding: 0.7rem;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     border: 1px solid var(--dark-brown);
     border-radius: 1.5rem;
     text-align: center;
     max-width: 500px;
+    min-width: 280px;
+}
+
+.input--search:hover{
+    border: 1px solid rgb(255, 237, 180);
+}
+
+.input--search::placeholder{
+    color: rgb(59, 70, 50);
+}
+
+.input--search:focus{
+    outline: none;
+    border: 1px solid rgb(255, 237, 180);
 }

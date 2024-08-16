@@ -1,17 +1,31 @@
 .todo--button{
     position: fixed;
-    bottom: 20%;
-    right: 0;
+    bottom: 10%;
+    right: 8%;
     width: 65px;
     height: 65px;
-    background-color: rgba(12, 12, 139);
-    border-radius: 100vw;
-    transform: translate(-50%, 50%);
+    background: rgb(103,134,204);
+    background: linear-gradient(137deg, rgba(103,134,204,1) 0%, rgb(153, 241, 131) 100%);
     font-size: 3rem;
     color: white;
+    border: none;
+    display: flex;
+    padding: 4px;
+    cursor: pointer;
+    border-radius: 100vw;
+    justify-content: center;
 }
 
-.todo--button:hover{
-    background-color: rgb(8, 8, 82);
-    cursor: pointer;
+.todo--button__text{
+    transition: .3s;
+}
+
+.todo--button:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+.todo--button:active{
+    transform: scale(0.9);
+    transition: all 0.3s;
 }
